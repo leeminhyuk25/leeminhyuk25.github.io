@@ -38,17 +38,12 @@ footer:
   copyright: "<strong>Luique</strong>. All rights reserved"
 
 ### Portfolio Filters Settings
-portfolio:
-  layout: "list" # select works layout options: "Grid" or "List"
+
+  portfolio:
+  layout: "grid"
   filters:
-    - name: "UI UX Design"
-      slug: "ui-ux-design"
+    - name: "전체"
+      slug: "all"
 
-    - name: "Photography"
-      slug: "photography"
-
-    - name: "Development"
-      slug: "development"
-
-    - name: "Branding"
-      slug: "branding"
+    - name: "융합 프로젝트"
+      slug: "project"

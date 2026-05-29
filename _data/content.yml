@@ -95,40 +95,22 @@ resume:
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "학력"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학교 강서캠퍼스"
+        subname: "사이버보안과"
+        period: "2025 - <b>재학 중</b>"
+        text: "네트워크 보안, 시스템 보안, 침투테스트 등 실습 중심 교육 과정 이수 중."
 
   experience:
-    title: "Experience"
+    title: "경력 및 활동"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "White Rootkit"
+        subname: "보안 동아리"
+        period: "2026 - <b>현재</b>"
+        text: "네트워크 및 코딩 보안 실습 활동."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      
 
 
 ### Testimonials [ testimonials ]
@@ -240,26 +222,23 @@ blog:
 
 ### Contact [ contacts ]
 contacts:
-  title: "Contact Me"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  title: "연락하기"
+  subtitle: "Let’s <b>문의</b>하기"
   bg_title: "Contact Me"
 
   list:
-    - label: "Address"
+    - label: "위치"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
-
-    - label: "Freelance"
-      icon: "far fa-user"
-      text: "Available Right Now"
+      text: "서울특별시 강서구"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "shiningsky337@gmail.com"
 
-    - label: "Phone"
-      icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      label: "GitHub"
+      icon: "fab fa-github"
+      text: "github.com/leeminhyuk25"
+      link: "https://github.com/leeminhyuk25"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
