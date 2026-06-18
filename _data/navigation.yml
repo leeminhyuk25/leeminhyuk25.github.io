@@ -41,10 +41,7 @@ main:
     url: "#pricing-section"
     parent: 0
 
-  # Blog
-  - title: "Blog"
-    url: "#blog-section"
-    parent: 0
+  
 
   # Contact
   - title: "Contact"

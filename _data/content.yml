@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile.png"
+  image: "assets/images/leeminhyuk.png"
   image_alt: "이민혁"
   before_title: "환영합니다, <b>제 이름은</b>"
   title: "<b>MINHYUK</b> Lee"
@@ -109,43 +109,6 @@ resume:
         subname: "보안 동아리"
         period: "2026 - <b>현재</b>"
         text: "네트워크 및 코딩 보안 실습 활동."
-
-      
-
-
-### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  subtitle: "what <b>Customers Say</b>"
-  bg_title: "Reviews"
-
-  items:
-    - image: "assets/img/testimonials/testi4-2.jpg"
-      name: "Barbara Wilson"
-      role: "CEO Company"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-1.jpg"
-      name: "Charlie Smith"
-      role: "Designer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-4.jpg"
-      name: "Roy Wang"
-      role: "Manager GYM"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-3.jpg"
-      name: "Jennifer Smith"
-      role: "CEO &amp; Founder"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-    - image: "assets/img/testimonials/testi4-5.jpg"
-      name: "Paul Freeman"
-      role: "Photographer"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
 ### Pricing [ pricing ]
 pricing:
   title: "Pricing"
@@ -208,18 +171,6 @@ pricing:
         label: "Start Project"
         link: "#contact-section"
 
-
-### Blog [ blog ]
-#items generates from dir /_posts/*
-blog:
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
-  bg_title: "Blog"
-  button:
-    label: "View Blog"
-    link: "blog/"
-
-
 ### Contact [ contacts ]
 contacts:
   title: "연락하기"
@@ -241,11 +192,18 @@ contacts:
       link: "https://github.com/leeminhyuk25"
 
 ### Portfolio [ portfolio ]
-#items generates from dir /_works/*
 portfolio:
   title: "Portfolio"
   subtitle: "my <b>Cases</b>"
   bg_title: "Portfolio"
+  
+  items:
+    - category: "SECURITY ENGINEERING"
+      title: "T-RAD"
+      description: "Network-based threat detection system. Auditd-based kernel syscall monitoring with Python log parsing and SQLite storage."
+      image: "assets/images/project.png"
+      link: "#"
+  
   button:
     link: "works/"
     label: "View More"
